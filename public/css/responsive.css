@@ -1,0 +1,186 @@
+/* Extra Small Device */
+@media (max-width: 767px) {
+    .heading_1998_abs {
+        top: -35px;
+        right: 16px;
+        font-size: 45px;
+    }
+    .logo_establish_abs {
+        width: 35%;
+        top: -30px;
+        left: 40px;
+    }
+    span.text-2xl.batch {
+        font-size: 16px;
+    }
+    .flip-clock-wrapper ul {
+        width: 16px;
+        height: 26px;
+    }
+    .flip-clock-wrapper ul li a div div.inn {
+        line-height: 27px;
+        font-size: 14px;
+    }
+    .upcaming_event_parent {
+        margin-top: 70px;
+    }
+    .join_with_us_btn {
+        font-size: 13px;
+        bottom: -332px;
+    }
+
+    .flip-clock-dot.top {
+        top: 7px;
+    }
+    .flip-clock-dot.bottom {
+        top: 22px;
+    }
+    .upcomimg_event .flip-clock-divider .flip-clock-label {
+        text-shadow: none;
+        margin-top: 5px;
+        color: white;
+        left: -27px;
+    }
+
+    .company_image {
+        margin-top: 28px;
+        position: absolute;
+        z-index: 9 !important;
+        right: 5px;
+        height: 53px;
+    }
+
+    .make_the_name_fixed .company_image {
+        margin-top: 53px !important;
+    }
+    .news_image{height: 180px;}
+    .some_speach_slider .owl-next{right: -10px;}
+    .some_speach_slider .owl-prev {
+        left: 17px;
+    }
+    .slide_shadow {
+        margin: 0 35px;
+    }
+    .gallery_btn {
+        display: inline-block;
+        margin-bottom: 8px;
+        padding: 2px 5px;
+        font-size: 14px;
+    }
+    .camera_caption{top: 0;left: 15px;width: 90%;}
+    .camera_caption >div h2{font-size: 22px;
+        margin-bottom: 0;
+        font-weight: 700;
+        margin-top: 10px;}
+    .slider-description{    line-height: 19px !important;
+        font-size: 14px !important;}
+    .blog_parent{    height: 290px;}
+
+}
+
+/* Small Device */
+@media (min-width: 768px) {
+    .logo_establish_abs {
+        top: -52px;
+    }
+    .gallery {
+        max-height: 180px;
+    }
+
+    .top_logo {
+        float: right;
+    }
+    .company_image {
+        position: unset;
+        margin-top: 0;
+    }
+    .make_image_little_bottom {
+        margin-top: 0 !important;
+    }
+    .camera_caption {
+        top: -25px;
+        left: 80px;
+    }
+    .camera_caption > div h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .camera_caption > div h3 {
+        line-height: 18px;
+    }
+    .news_image{height: 160px;}
+    .upcaming_event_parent{margin-top: 65px;}
+}
+
+/* Medium   Device */
+@media (min-width: 992px) {
+    .flip-clock-wrapper ul {
+        width: 20px;
+        height: 30px;
+    }
+    .flip-clock-wrapper ul li a div div.inn {
+        line-height: 31px;
+        font-size: 20px;
+    }
+    .logo_establish_abs {
+        top: -44px;
+    }
+    .join_with_us_btn {
+        bottom: -359px;
+    }
+    .upcomimg_event .flip-clock-divider .flip-clock-label {
+        right: -45px;
+    }
+    .flip-clock-dot.bottom {
+        top: 25px;
+    }
+    .top_logo {
+        float: unset;
+    }
+    .company_image {
+        position: absolute;
+        margin-top: 58px;
+    }
+    .make_image_little_bottom {
+        margin-top: 110px !important;
+    }
+    .camera_caption {
+        top: 150px;
+        left: 200px;
+    }
+    .camera_caption > div h2 {
+        font-size: 50px;
+        margin-bottom: 35px;
+    }
+    .camera_caption > div h3 {
+        line-height: 30px;
+    }
+    .news_image{height: 160px;}
+    .upcaming_event_parent{margin-top: 0;}
+}
+
+/* Large Device */
+@media (min-width: 1200px) {
+    .flip-clock-wrapper ul {
+        width: 20px;
+        height: 28px;
+    }
+    .flip-clock-wrapper ul li a div div.inn {
+        line-height: 31px;
+        font-size: 17px;
+    }
+    .join_with_us_btn {
+        bottom: -362px;
+    }
+    .gallery {
+        max-height: 220px;
+    }
+    .flip-clock-dot.bottom {
+        top: 22px;
+    }
+    .upcomimg_event .flip-clock-divider .flip-clock-label {
+        right: -50px;
+    }
+    .news_image{height: 250px;}
+}

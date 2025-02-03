@@ -1,0 +1,27 @@
+{
+    "name": "mdsatu/switcher",
+    "description": "Laravel database table status switcher",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "Switcher",
+        "Switch column value"
+    ],
+    "homepage": "https://github.com/mdsatu/switcher",
+    "authors": [
+        {
+            "name": "MD Satu",
+            "email": "mdsatu.pro@gmail.com",
+            "homepage": "https://mdsatu.github.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "DWK\\Switcher\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0"
+    }
+}

@@ -1,0 +1,169 @@
+/* Slider */
+.camera_wrap img{    width: 100% !important;
+    margin-left: 0 !important;}
+
+
+.camera_caption {
+    bottom: auto !important;
+    top: 220px;
+    left: 200px;
+    width: 30%;
+    text-align: left !important;
+}
+@media (min-width: 980px) and (max-width: 1200px) {
+    .camera_caption {
+        /* top: 40px;
+        width: 50%;
+        right: 80px; */
+        display: none !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .camera_caption {
+        top:20px;
+        left:30px;
+        width:70%;
+    }
+}
+@media (max-width: 767px) {
+    .camera_caption {
+        top:20px;
+        left:20px;
+        width:80%;
+    }
+}
+@media (max-width: 550px) {
+    /* .camera_caption { display:none !important; } */
+}
+.camera_caption >div {
+    background:none;
+    display:inline;
+    padding:0;
+}
+.camera_caption >div h2 {
+    font-size:50px;
+    line-height: 60px;
+    color:#333333;
+    margin:0;
+    display:block;
+    margin-bottom: 35px;
+}
+@media (max-width: 767px) {
+    .camera_caption >div h2 { line-height:1em; }
+}
+.camera_caption >div h3 {
+    font-size: 16px;
+    line-height:30px;
+    color:#000;
+    font-weight:normal;
+    margin:5px 0 13px 0;
+}
+.camera_caption >div p {
+    font: 10px/18px 'Ubuntu', sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+@media (max-width: 767px) {
+    .camera_caption >div p { display:none; }
+}
+.camera_caption >div .btn {
+    background-color: var(--primary_color);
+    background-image:-moz-linear-gradient(top,var(--primary_color),var(--primary_color));
+    background-image:-webkit-gradient(linear,0 0,0 100%,from(var(--primary_color)),to(var(--primary_color)));
+    background-image:-webkit-linear-gradient(top,var(--primary_color),var(--primary_color));
+    background-image:-o-linear-gradient(top,var(--primary_color),var(--primary_color));
+    background-image:linear-gradient(to bottom,var(--primary_color),var(--primary_color));
+    background-repeat:repeat-x;
+    font:bold 14px/1em 'Ubuntu', sans-serif;
+    text-transform:uppercase;
+    color:#fff;
+    padding: 10px 14px;
+    float: left;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .camera_caption >div .btn { padding:10px; }
+}
+@media (max-width: 767px) {
+    .camera_caption >div .btn { display:none; }
+}
+.camera_caption >div .btn:active, .camera_caption >div .btn:focus, .camera_caption >div .btn:hover {
+    background:#797979;
+    box-shadow:none;
+    text-decoration:none;
+    color:#fff;
+}
+.camera_wrap { margin-bottom:0 !important; }
+.camera_wrap .camera_pag {
+    bottom:58px;
+    left:auto;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .camera_wrap .camera_pag { bottom:40px; }
+}
+@media (max-width: 767px) {
+    .camera_wrap .camera_pag {
+        left:0;
+        bottom:40px;
+    }
+}
+.camera_wrap .camera_pag .camera_pag_ul {
+    display:block;
+    text-align:left;
+    padding-left:45px;
+    position: absolute;
+    top: 46%;
+    right: 30px;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .camera_wrap .camera_pag .camera_pag_ul { padding-left:30px; }
+}
+@media (max-width: 550px) {
+    .camera_wrap .camera_pag .camera_pag_ul {
+        padding:0;
+        text-align:center;
+    }
+}
+.camera_wrap .camera_pag .camera_pag_ul li {
+    width:12px;
+    height:12px;
+    background:#fff;
+    background-clip:padding-box;
+    margin:5px 3px;
+    display: block !important;
+}
+.camera_wrap .camera_pag .camera_pag_ul li span {
+    width:12px;
+    height:12px;
+    border-radius:11px;
+    border:1px solid #e4e4e4;
+    top:0;
+    left:0;
+    transition:all 0.3s ease 0s;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+.camera_wrap .camera_pag .camera_pag_ul li:hover span {
+    background:#ea4f5f;
+    border-color:transparent;
+}
+.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent span {
+    background:#ea4f5f;
+    border-color:transparent;
+}
+.camera_thumbs_cont {
+    background:none;
+    position:relative;
+    bottom:70px;
+}
+@media (max-width: 1200px) {
+    .camera_thumbs_cont { display:none !important; }
+}
+.camera_prev, .camera_next, .camera_commands {
+    top:80%;
+    margin:0;
+}
+/* End Slider */

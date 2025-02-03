@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /admin-cp/
+Disallow: /cart/
+Disallow: /checkout
+Disallow: /auth-redirect
+Disallow: /email-verify/
+Disallow: /email-verify-check/
+Disallow: /test/
+Disallow: /config/

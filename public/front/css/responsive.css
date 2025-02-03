@@ -1,0 +1,195 @@
+/* Extra Small Device */
+@media (max-width: 320px) {
+
+}
+
+@media (max-width: 767px) {
+    section.intro .flip-clock-wrapper ul {
+        width: 16px;
+        height: 26px;
+    }
+    section.intro .flip-clock-wrapper ul li a div div.inn {
+        line-height: 27px;
+        font-size: 14px;
+    }
+    section.intro .flip-clock-dot.top {
+        top: 7px;
+    }
+    section.intro .flip-clock-dot.bottom {
+        top: 22px;
+    }
+    section.intro .events .flip-clock-divider .flip-clock-label {
+        text-shadow: none;
+        margin-top: 5px;
+        color: white;
+        left: -27px;
+    }
+    .main_header{background: var(--primary_color);}
+    .logo a img{position: unset;width: 55px;}
+    .camera_caption{top: 0;left: 15px;width: 90%;}
+    .camera_caption >div h2{font-size: 22px;
+        margin-bottom: 0;
+        font-weight: 700;
+        margin-top: 10px;}
+
+    #main_slider{min-height: 150px;}
+    .camera_pag{display: none;}
+    .slider-description{line-height: 13px !important;
+        font-size: 11px !important;}
+    section.intro .intro_logo{    width: 35%;
+        top: -30px;}
+    section.intro .intro_year{    top: -35px;
+        right: 16px;
+        font-size: 45px;}
+    section.intro .intro_year .text{font-size: 16px;margin-top: 29px;}
+    .gallery_box{    -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;margin-bottom: 20px;}
+    .section_title{font-size: 26px;}
+    .blog_list .owl-prev {
+        left: -17px;
+    }
+    .blog_list .owl-next {
+        right: -17px;
+    }
+    .copyright{text-align: center;}
+    section.intro .intro_wrap{    padding-top: 55px;}
+    section.intro .intro_title {
+        font-size: 16px;
+    }
+    section.intro .intro_content{    padding: 0px 15px;height: auto;}
+    #main_slider .button{padding: 5px 10px !important;
+        font-size: 12px;}
+    .page_wrap{padding-top: 15px;}
+    .up_wrap{margin-top: 15px;}
+    .remove_kid_field{margin-bottom: 35px;}
+    .mobile_menu_toggle {
+        margin-top: 6px;
+    }
+} /* Extra Small Device */
+
+
+
+/* Small Device */
+@media (min-width: 768px) {
+    section.intro .flip-clock-wrapper ul {
+        width: 20px;
+        height: 30px;
+    }
+    section.intro .flip-clock-wrapper ul li a div div.inn {
+        line-height: 31px;
+        font-size: 20px;
+    }
+    section.intro .events .flip-clock-divider .flip-clock-label {
+        right: -45px;
+    }
+    section.intro .flip-clock-dot.bottom {
+        top: 25px;
+    }
+
+    .camera_caption {
+        top: -25px;
+        left: 80px;
+    }
+    .camera_caption > div h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .camera_caption > div h3 {
+        line-height: 18px;    width: 50%;
+    }
+    .main_header{background: var(--primary_color);}
+    .logo a img{position: unset;width: 85px;}
+
+    .camera_pag{display: none;}
+    #main_slider {
+        min-height: 300px;
+    }
+    .gallery_box{    -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;}
+    .gallery_box{margin-bottom: 20px;}
+    .blog_list .owl-prev {
+        left: -17px;
+    }
+    .blog_list .owl-next {
+        right: -17px;
+    }
+
+}
+
+/* Medium Device */
+@media (min-width: 992px) {
+    section.intro .flip-clock-wrapper ul {
+        width: 20px;
+        height: 30px;
+    }
+    section.intro .flip-clock-wrapper ul li a div div.inn {
+        line-height: 31px;
+        font-size: 20px;
+    }
+    section.intro .events .flip-clock-divider .flip-clock-label {
+        right: -45px;
+    }
+    section.intro .flip-clock-dot.bottom {
+        top: 25px;
+    }
+    .camera_caption {
+        top: 150px;
+        left: 200px;
+    }
+    .camera_caption > div h2 {
+        font-size: 50px;
+        margin-bottom: 35px;
+    }
+    .camera_caption > div h3 {
+        line-height: 30px; width: 100%;
+    }
+    .logo a img{position: absolute;    width: 115px;}
+    .camera_pag{display: block;}
+    #main_slider {
+        min-height: 480px;
+    }
+    .gallery_box{    -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;}
+    .ec_content {
+        height: 350px;
+    }
+}
+
+/* Large Device */
+@media (min-width: 1200px) {
+    section.intro .flip-clock-wrapper ul {
+        width: 20px;
+        height: 28px;
+    }
+    section.intro .flip-clock-wrapper ul li a div div.inn {
+        line-height: 31px;
+        font-size: 17px;
+    }
+    section.intro .flip-clock-dot.bottom {
+        top: 22px;
+    }
+    section.intro .events .flip-clock-divider .flip-clock-label {
+        right: -50px;
+    }
+    #main_slider {
+        min-height: 600px;
+    }
+    .ec_content {
+        height: auto;
+    }
+}
+
+/* Extra Large Device */
+@media (min-width: 1400px) {
+
+}
+@media (min-width: 1600px) {
+
+}
+@media (min-width: 2000px) {
+
+}
